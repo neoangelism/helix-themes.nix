@@ -5,7 +5,7 @@ let
   bg3 = "#45403d";
   bg4 = "#45403d";
   bg_visual_yellow = "#4f422e";
-           
+
   fg0 = "#d4be98";
   red = "#ea6962";
   orange = "#e78a4e";
@@ -14,10 +14,11 @@ let
   aqua = "#89b482";
   blue = "#7daea3";
   purple = "#d3869b";
-  
+
   grey0 = "#7c6f64";
   grey2 = "#a89984";
-in {     
+in
+{
   "type" = yellow;
   "constant" = purple;
   "constant.numeric" = purple;
@@ -45,7 +46,7 @@ in {
   "constructor" = yellow;
   "module" = blue;
   "special" = orange;
-  
+
   "markup.heading.marker" = grey2;
   "markup.heading.1" = { fg = red; modifiers = [ "bold" ]; };
   "markup.heading.2" = { fg = orange; modifiers = [ "bold" ]; };
@@ -60,11 +61,11 @@ in {
   "markup.link.text" = purple;
   "markup.quote" = grey2;
   "markup.raw" = green;
-  
+
   "diff.plus" = green;
   "diff.delta" = orange;
   "diff.minus" = red;
-  
+
   "ui.background" = { bg = bg0; };
   "ui.background.separator" = grey0;
   "ui.cursor" = { fg = bg0; bg = fg0; };
@@ -93,7 +94,7 @@ in {
   "ui.virtual.whitespace" = { fg = bg4; };
   "ui.virtual.indent-guide" = { fg = bg4; };
   "ui.virtual.ruler" = { bg = bg3; };
-  
+
   "hint" = blue;
   "info" = aqua;
   "warning" = yellow;
