@@ -32,7 +32,7 @@
         inherit
           gruvbox_material_dark_medium
           kanabox_default
-          urban_owl;
+          urban_owl
           oxocarbon;
       };
     };
